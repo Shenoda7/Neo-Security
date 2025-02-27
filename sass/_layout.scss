@@ -15,6 +15,10 @@
     @media only screen and (max-width: 1230px) {
       display: block;
     }
+    @media only screen and (max-width: $bp-sm) {
+      width: 4rem;
+      height: 4rem;
+    }
   }
 
 
@@ -26,6 +30,10 @@
 
   &__logo {
     cursor: pointer;
+
+    @media only screen and (max-width: $bp-sm) {
+      width: 13rem;
+    }
   }
 
   &__nav {
@@ -358,13 +366,21 @@
     background-color: $color-gray-light;
     border-radius: 16px;
     padding: 2.4rem 4rem;
+
+    @media only screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 
   &__info {
     display: flex;
     flex-direction: column;
-
     justify-items: end;
+
+    @media only screen and (max-width: 1000px) {
+      align-items: center;
+      text-align: center;
+    }
   }
 
   &__img {
@@ -373,6 +389,7 @@
 
     &--showcase {
       object-fit: contain;
+      width: 100%;
     }
   }
 }
