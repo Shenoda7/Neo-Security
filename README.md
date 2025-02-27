@@ -11,7 +11,6 @@
 - **Fully Responsive Design**: Works seamlessly on all devices, from desktops to mobile phones.
 - **Modern UI**: A clean and intuitive user interface built with SCSS for efficient styling.
 - **Interactive Elements**: Engaging components to enhance user experience.
-- **Video Integration**: Includes a video demonstration for better understanding.
 - **Deployment Ready**: Hosted on Netlify for easy access and testing.
 
 ---
