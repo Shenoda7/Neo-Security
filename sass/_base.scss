@@ -1,0 +1,87 @@
+//COLORS
+$color-primary: #29306c;
+$color-primary-2: #4184c5;
+$color-primary-3: #1d3d91;
+$color-primary-4: #28316b;
+
+$color-gray-light: #f3f5f7; //for background on some sections
+
+//BorderColor
+$color-border: #d4d4da;
+
+/*
+#0A0C1AA3 that's for linear gradient on the hero image with opacity of 64%
+*/
+
+$color-hero-img: #0a0c1aa3;
+$color-navigation-bg: #fafbfbeb; //notice it has an opacity of 92%
+$color-subheading: #8eb6dc;
+
+//FONTS COLORS
+$color-primary-font: #0f1229;
+$color-secondary-font: #5f6e7c;
+$color-secondary-lighter: #e3e3e8;
+$color-tertiary-font: #929eab;
+$color-light-font: #fbfcfe;
+$color-lighter-font: #e3e3e8;
+$color-white-2: #fcfcfc;
+
+//COLOR ICONS TAILORED
+//fill="#4184C5"
+
+//MEDIA QUERIES VARIABLES
+$bp-largest: 1200px;
+$bp-large: 1100px;
+$bp-medium: 900px;
+$bp-sm: 660px;
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 12rem;
+  margin: 0 auto;
+
+  @media only screen and (max-width: $bp-largest) {
+    max-width: $bp-largest;
+    padding: 0 10rem;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    max-width: $bp-large;
+    padding: 0 8rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    max-width: $bp-medium;
+    padding: 0 6rem;
+  }
+
+  @media only screen and (max-width: $bp-sm) {
+    max-width: $bp-sm;
+    padding: 0 4rem;
+
+  }
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+//MEDIA QUERIES
